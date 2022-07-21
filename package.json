@@ -5,11 +5,13 @@
   "main": "controller.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://ivanmpr.gihub.io/budget-tracker",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.2",
     "bundler": "^0.8.0",
